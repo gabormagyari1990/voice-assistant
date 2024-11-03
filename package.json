@@ -1,0 +1,20 @@
+{
+  "name": "voice-assistant",
+  "version": "1.0.0",
+  "description": "Voice assistant using OpenAI's Realtime API with wake word detection",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@picovoice/porcupine-node": "^3.0.1",
+    "dotenv": "^16.4.1",
+    "node-microphone": "^0.1.6",
+    "ws": "^8.16.0"
+  }
+}
